@@ -1,0 +1,26 @@
+body {
+  margin: 20px;
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+#test {
+  font-size: 3em;
+  font-weight: bold;
+}
+#exampleLabel,#exampleInput,#multi {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.boom {
+  font-size: 3em;
+}
+
+.pop {
+  font-size: 3em;
+}
+
+.pow {
+  font-size: 3em;
+}
