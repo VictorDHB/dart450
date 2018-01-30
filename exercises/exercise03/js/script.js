@@ -10,6 +10,9 @@ Description of what the script does...
 
 $(document).ready(function () {
   // Insert jQuery code here to run when the page is loaded
+  $("#run").click(function(){
+  $("#run").delay(0).fadeOut(0);
+
   var block1 = 500;
   setTimeout(function() {
     $('#block1').show("slow");
@@ -46,4 +49,4 @@ $(document).ready(function () {
   }, block7);
 
 
-});
+});});

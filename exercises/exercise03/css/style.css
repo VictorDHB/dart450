@@ -19,6 +19,11 @@ span {
   color: #EF8354;
 }
 
+#run {
+  font-family: 'Space Mono', monospace;
+  color: #3E885B;
+}
+
 #block1 {
 
 }
