@@ -1,0 +1,30 @@
+/*
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Some description of the CSS styling
+
+*/
+
+body {
+  margin: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1 {
+  color: hotpink;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.pinkguy {
+  color: hotpink;
+}
