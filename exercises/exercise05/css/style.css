@@ -1,0 +1,66 @@
+/*
+DART 450, Winter 2018
+Title of project
+Author
+Some description of the CSS styling
+*/
+
+body {
+  margin: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #272635;
+}
+
+h1 {
+  font-size: 72px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+#div01 {
+  color: #C7EFCF;
+  padding-left: 300px;
+}
+
+#div02 {
+  color: #DB5461;
+  padding-right: 600px;
+}
+
+#div03 {
+  color: #68D8D6;
+  padding-top: 150px;
+}
+
+#div04 {
+  color: #F18F01;
+  padding-top: 50px;
+  padding-left: 800px;
+}
+
+#div05 {
+  color: #FFA69E;
+  padding-right: 900px;
+}
+
+#div06 {
+  color: #DDFFF7;
+  padding-right: 300px;
+}
+
+#div07 {
+  color: #FCF6B1;
+  padding-left: 700px;
+}
+
+#div08 {
+  color: #C7EFCF;
+  padding-left: 150px;
+}
