@@ -1,0 +1,21 @@
+/*
+
+Blast.js template
+Pippin Barr
+
+Some basic styling
+
+*/
+
+/* We have this here just to point out that EVERYTHING
+we run through .blast() ends up with this class. */
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.blast {
+  color: #ffffff;
+}
