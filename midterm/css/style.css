@@ -1,0 +1,66 @@
+/*
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Some description of the CSS styling
+
+*/
+
+body {
+  background-color: #2D3047;
+  font-family: 'Space Mono', monospace;
+  font-size: 3em;
+  color: #ffffff;
+}
+
+span {
+  color: #EF8354;
+}
+
+.start {
+  text-align: center;
+	padding-top: 20%;
+}
+
+#run {
+  margin:auto;
+  display:block;
+  font-family: 'Space Mono', monospace;
+  color: #3E885B;
+}
+
+#run:hover {
+  transform: rotate(360)scale(2,2);
+}
+
+#next {
+  font-family: 'Space Mono', monospace;
+  color: #3E885B;
+}
+
+.wrapper {
+  transition: background .2s ease;
+}
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.short {
+  height: (100vh / 3);
+}
+
+.title {
+  white-space: nowrap;
+  font-weight: 100;
+  font-size: 4vw;
+  font-color: $clouds;
+  
+  a {
+    color: inherit;
+  }
+}

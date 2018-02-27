@@ -1,0 +1,135 @@
+<!-- ************************************************************************
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Description of project and purpose of HTML...
+
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Title of project</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <!-- Include jQuery via the CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <!-- Uncomment the lines below to include jQuery UI -->
+  <!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
+
+  <!-- Include the script file -->
+  <script src="js/script.js"></script>
+  <script src="js/in-view.min.js"></script>
+
+</head>
+
+<!-- Comment about the body of the HTML -->
+
+<body>
+	<div class="start">
+		<h1>Alter Ego</h1>
+		<button id="run">PRESS START</button>
+	</div>
+
+  <div class="wrapper" style="display: none;">
+  <div class="section" id="alt01" data-background-color="#FFA204">
+    <p id="thought1">I woke up at 8:00am.</p>
+    <p style="display:none">(ᴗ˳ᴗ)ZzZ(ᴗ˳ᴗ)</p>
+  </div>
+  <div class="section" id="alt02" data-background-color="#FCD007">
+    <p id="thought2">I ate breakfast.</p>
+    <p style="display:none">Time to go sleep before he wakes up.</p>
+  </div>
+  <div class="section" id="alt03" data-background-color="#FBF406">
+    <p id="thought3">Left the house at 9:00am.</p>
+    <p style="display:none">Uh oh （・□・；）</p>
+  </div>
+  <div class="section" id="alt04" data-background-color="#9BCBFF">
+    <p id="thought4">Went to class at 10:00am.</p>
+    <p style="display:none">*RING RING!*</p>
+  </div>
+  <div class="section" id="alt05" data-background-color="#61A7F3">
+    <p id="thought5">Had lunch at 12:00pm</p>
+    <p style="display:none">Do I look good with his glasses? ༼⌐■ل͟■༽</p>
+  </div>
+  <div class="section" id="alt06" data-background-color="#529FF2">
+    <p id="thought6">Went to my second class at 1:30pm</p>
+    <p style="display:none">Stealing his cup of matcha (*｀▽´)_旦~~</p>
+  </div>
+  <div class="section" id="alt07" data-background-color="#F7CF56">
+    <p id="thought7">Left school at 5:00pm</p>
+    <p style="display:none">Let's get some <u id="frank">HAMBURGER</u></p>
+  </div>
+  <div class="section" id="alt08" data-background-color="#F8BF17">
+  	<p id="thought8">Got home at 6:00pm</p>
+    <p style="display:none">I'm hungry again.</p>
+  </div>
+  <div class="section" id="alt09" data-background-color="#F49204">
+  	<p id="thought9">Had dinner with parents at 7:00pm</p>
+    <p style="display:none">└|ﾟεﾟ|┐<u id="robot" >((Let's do the robot!))</u>┌|ﾟзﾟ|┘</p>
+  </div>
+  <div class="section" id="alt10" data-background-color="#BC0A4E">
+  	<p id="thought10">Spent hours procrastinating.</p>
+    <p style="display:none"><u id="magic">(つ◕౪◕)つ━☆ﾟ.*･｡ﾟ</u></p>
+  </div>
+  <div class="section short" id="alt11" data-background-color="#572E98">
+  	<p id="thought11">Did homework at 11:00pm</p>
+    <p style="display:none">Let's have some fun!</p>
+  </div>
+  <div class="section short" id="alt12" data-background-color="#001C3D">
+  	<p id="thought12">Barely studied. Oops.</p>
+    <p style="display:none">Thank god there's ramen ＼（Ｔ∇Ｔ）／</p>
+  </div>
+  <div class="section short" id="alt13" data-background-color="#001328">
+  	<p id="thought13">It's getting late. Time to sleep.</p>
+    <p style="display:none">Bacon and eggs? Yuck. ಥ_ಥ</p>
+  </div>
+  <div class="section short" id="alt14" data-background-color="#000D1C">
+  <p style="display:none">Let's see what's in the fridge. ʘ‿ʘ</p>
+  </div>
+  <div class="section short" id="alt15" data-background-color="#000811">
+  <p style="display:none">I'm hungry...</p>
+  </div>
+  <div class="section short" id="alt16" data-background-color="#000000">
+  	<p id="thought14">Woke up in the middle of the night.</p>
+    <p style="display:none"><u id="richbrian">Currently playing</u>...♪～(￣ε￣)</p>
+  </div>
+  <div class="section short" id="alt17" data-background-color="#0F2033">
+  	<p>Knocked out at 4:00am</p>
+    <p style="display:none">Let's see what else is on his phone.</p>
+  </div>
+  <div class="section short" id="alt18" data-background-color="#122A44">
+  	<p style="display:none">ʘ ͜ʖ ʘ Oh my, <u id="insta">1800 followers</u>. look at him!</p>
+  </div>
+  <div class="section short" id="alt19" data-background-color="#1C4168">
+  	<p style="display:none">Let's steal his phone...</p>
+  </div>
+  <div class="section short" id="alt20" data-background-color="#25486D">
+  	<p style="display:none">I can't believe he didn't sleep earlier.</p>
+  </div>
+  <div class="section short" id="alt21" data-background-color="#326193">
+  	<p style="display:none">5:00am? You've got to be kidding me.</p>
+  </div>
+  <div class="section short" id="alt22" data-background-color="#3669A0">
+  	<p style="display:none">...</p>
+  </div>
+  <div class="section" id="alt23" data-background-color="#3D77B5">
+    <p>Meanwhile...</p>
+    <p style="display:none">ψ(｀∇´)ψ IM ALIVE!!!</p>
+	<button id="next">Next</button>
+  </div>
+</div>
+
+</body>
+
+</html>
