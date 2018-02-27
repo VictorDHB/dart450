@@ -1,5 +1,7 @@
 Midterm Project: Interactive Personality
 When I think of Internet personality, it reminds me of the idea of having an alternate ego, such as Dr. Jekyll and Mr. Hyde. Everyone seems normal during their daily routine and when they get off from work/school, they become a whole different person. For this project, I wanted to reflect on that idea by creating an interactive page where users can read one story by scrolling down and another story by scrolling back up.
+
 The project's way of storytelling is by mainly focusing on typography and colors. I used a typewriting font called Space Mono to create a kind of personal diary aesthetic. I created two stories that are loosely based on myself and my Internet personality. Each character starts by telling their daily routine and ends up going to sleep. As the users scroll down the page, the background color reflects the sky (sunrise for story 1 and sunset for story 2) and it changes as if the day progressed. The users will get to know more about the characters' personality and thoughts by clicking on some texts. The first story goes from day to night and the second story goes from night to day. Once the users finish story 1, they have to click on the button to read story 2.
+
 The page uses a lot of concepts that were taught in class, mostly toggle and click function. I also used a jquery library called In-View, which allows to change background colors whenever a user scrolls down the page.
 
